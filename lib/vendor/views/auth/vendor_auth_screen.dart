@@ -1,7 +1,7 @@
 import 'package:firebase_auth/firebase_auth.dart' hide EmailAuthProvider;
 import 'package:firebase_ui_auth/firebase_ui_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:vendor_app/vendor/views/auth/vendor_registration_screen.dart';
+import 'package:vendor_app/vendor/screens/landing_screen.dart';
 
 class VendorAuthScreen extends StatefulWidget {
   const VendorAuthScreen({super.key});
@@ -24,7 +24,8 @@ class _VendorAuthScreenState extends State<VendorAuthScreen> {
               ],
             );
           }
-          return VendorRegistrationScreen();
+          //render if authent icated
+          return LandingScreen();
         });
   }
 }

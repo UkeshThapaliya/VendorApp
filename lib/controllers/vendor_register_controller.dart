@@ -38,7 +38,7 @@ class VendorController {
 
 // function to save vendor data
   Future<String> registerVendor(
-    String bussinessName,
+    String businessName,
     String email,
     String phoneNumber,
     String countryValue,
@@ -54,7 +54,7 @@ class VendorController {
       //Save data to cloud firestore
 
       await _firestore.collection('vendors').doc(_auth.currentUser!.uid).set({
-        'bussinessname': bussinessName,
+        'businessName': businessName,
         'email': email,
         'phoneNumber': phoneNumber,
         'countryValue': countryValue,
@@ -62,8 +62,9 @@ class VendorController {
         'cityValue': cityValue,
         'taxRegistered': taxRegistered,
         'taxNumber': taxNumber,
-        'image': storeImage,
+        'storeImage': storeImage,
         'approved': false,
+        'vendorId': _auth.currentUser!.uid,
       });
     } catch (e) {
       res = e.toString();
