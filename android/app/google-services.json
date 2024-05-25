@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "245683165794",
+    "project_id": "fashionwear-9e6ab",
+    "storage_bucket": "fashionwear-9e6ab.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245683165794:android:c5480e46049bf6b43a8f3b",
+        "android_client_info": {
+          "package_name": "com.ukesh.fashionwear_ecommerce"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245683165794-f7k3sda1k04jjecp0savmmr9mgjd9hgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN_R7TovMvsysXZ1naGx69VC_NuDPjv4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245683165794-f7k3sda1k04jjecp0savmmr9mgjd9hgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:245683165794:android:a1e21b5adb7e7c273a8f3b",
+        "android_client_info": {
+          "package_name": "com.ukesh.vendor_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "245683165794-f7k3sda1k04jjecp0savmmr9mgjd9hgu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDN_R7TovMvsysXZ1naGx69VC_NuDPjv4Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "245683165794-f7k3sda1k04jjecp0savmmr9mgjd9hgu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

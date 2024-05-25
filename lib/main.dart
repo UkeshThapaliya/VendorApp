@@ -1,6 +1,20 @@
+import 'dart:io';
+
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  Platform.isAndroid
+      ? await Firebase.initializeApp(
+          options: FirebaseOptions(
+              apiKey: "AIzaSyDN_R7TovMvsysXZ1naGx69VC_NuDPjv4Y",
+              appId: "1:245683165794:android:a1e21b5adb7e7c273a8f3b",
+              messagingSenderId: "245683165794",
+              projectId: "fashionwear-9e6ab",
+              storageBucket: "fashionwear-9e6ab.appspot.com"),
+        )
+      : await Firebase.initializeApp();
   runApp(const MyApp());
 }
 
